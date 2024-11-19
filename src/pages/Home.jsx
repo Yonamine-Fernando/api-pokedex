@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useContext, } from 'react';
 import axios from 'axios';
-import PokemonCard from '../componets/pokemonCard/PokemonCard';
-import SearchBar from '../componets/hearder/seachPokemon/SearchPokemon';
+import PokemonCard from '../components/pokemonCard/PokemonCard';
+import SearchBar from '../components/hearder/seachPokemon/SearchPokemon';
 import { getPokemons } from '../service/PokemonsApi';
 import { ThemeContext } from '../context/theme-context';
-import Logo from '../componets/hearder/logo';
+import Logo from '../components/hearder/logo';
 import * as Styles from './styleHome'
-import { ThemeToggerButton } from '../componets/theme-togger-button/theme-togger-button';
+import { ThemeToggerButton } from '../components/theme-togger-button/theme-togger-button';
 
 
 function Home() {

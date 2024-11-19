@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { TypeImages } from '../typeImagnes/typeImagnes';
+import { TypeImages } from '../typeImages/typeImages';
 
 function PokemonCard({ pokemon }) {
   const mainType = pokemon.types[0];

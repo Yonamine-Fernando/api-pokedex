@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { getPokemonDetails } from '../service/PokemonsApi';
 import { ThemeContext } from '../context/theme-context';
 import * as Styles from './styleDetail';
-import { ThemeToggerButton } from '../componets/theme-togger-button/theme-togger-button';
+import { ThemeToggerButton } from '../components/theme-togger-button/theme-togger-button';
 
 function PokemonDetail() {
   const { theme } = useContext(ThemeContext)
